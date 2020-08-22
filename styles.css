@@ -477,7 +477,7 @@ body {
 
 @media only screen and (max-width: 450px) {
   .sprite {
-    bottom: 7vh;
+    bottom: 9vh;
   }
 
   .enemy {

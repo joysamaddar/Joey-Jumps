@@ -74,7 +74,7 @@ let started = false;
 function generateEnemy() {
   let enemy = document.createElement("div");
   enemy.className = "enemy";
-  enemy.style.animation = `enemy ${Math.random() * 1.5 + 1.2}s linear`;
+  enemy.style.animation = `enemy ${Math.random() * 1.3 + 1}s linear`;
 
   game_area.appendChild(enemy);
   var moving = true;
@@ -203,7 +203,7 @@ window.addEventListener("touchstart", (e) => {
       } else {
         console.log("bruh u dead");
       }
-    }, Math.floor(Math.random() * 1500 + 1400));
+    }, Math.floor(Math.random() * 1400 + 1200));
   }
 
   if (dead) {
