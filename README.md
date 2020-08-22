@@ -1,2 +1,4 @@
 # Platformer_Game
-Made a simple platformer game using Vanilla JS.
+Simple platformer game using Vanilla JS.
+
+Project on - https://joysamaddar.github.io/Platformer_Game/
