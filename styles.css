@@ -380,7 +380,7 @@ body {
   50% {
     background: url(./img/Jump6.png) no-repeat;
     background-size: cover;
-    bottom: 40vh;
+    bottom: 45vh;
   }
   60% {
     background: url(./img/Jump7.png) no-repeat;
@@ -464,19 +464,23 @@ body {
   }
 }
 
-@media only screen and (max-width: 850px) {
-  .platform {
-    height: 10vh;
-  }
-
+@media only screen and (max-width: 900px) {
   .sprite {
-    bottom: 7vh;
-    width: 70px;
-    height: 110px;
+    bottom: 6vh;
   }
 
   .enemy {
-    bottom: 18vh;
+    width: 20px;
+    height: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .sprite {
+    bottom: 7vh;
+  }
+
+  .enemy {
     width: 40px;
     height: 20px;
   }
